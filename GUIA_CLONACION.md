@@ -177,17 +177,23 @@ git clone https://github.com/ignacioriverosurrutia/skills-intro-to-github.git
 
 **Causa**: Problema con certificados SSL (común en redes corporativas)
 
-**Solución temporal** (no recomendado para producción):
+**⚠️ ADVERTENCIA DE SEGURIDAD**: La siguiente solución temporal desactiva la verificación SSL y **NO debe usarse en entornos de producción** o para información sensible. Esto hace que tu conexión sea vulnerable a ataques man-in-the-middle.
+
+**Solución temporal** (SOLO para entornos de desarrollo/prueba aislados):
 ```bash
+# ⚠️ USAR CON EXTREMA PRECAUCIÓN
 git config --global http.sslVerify false
 ```
 
-**Solución recomendada**:
+**Solución recomendada y segura**:
 ```bash
 # Actualiza los certificados de tu sistema
-# Windows: Reinstala Git
-# macOS: Actualiza certificados del sistema
-# Linux: sudo apt-get install ca-certificates
+# Windows: Reinstala Git desde git-scm.com
+# macOS: Actualiza certificados del sistema operativo
+# Linux: sudo apt-get install ca-certificates --reinstall
+
+# O configura el certificado correcto en lugar de desactivar SSL
+git config --global http.sslCAInfo /path/to/certificate.pem
 ```
 
 ## Verificación de clonación exitosa
