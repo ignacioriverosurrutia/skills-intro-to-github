@@ -60,4 +60,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 
 ---
 
-© 2025 GitHub • [Código de Conducta](https://www.contributor-covenant.org/es/version/2/1/code_of_conduct/code_of_conduct.md) • [Licencia MIT](https://opensource.org/licenses/MIT)
+© 2024 GitHub • [Código de Conducta](https://www.contributor-covenant.org/es/version/2/1/code_of_conduct/code_of_conduct.md) • [Licencia MIT](https://opensource.org/licenses/MIT)
