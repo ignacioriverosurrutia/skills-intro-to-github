@@ -8,6 +8,10 @@ Este repositorio es tu espacio para aprender los conceptos básicos de GitHub. A
 
 ## Cómo clonar este repositorio
 
+📘 **¿Primera vez?** Lee la [Guía de Inicio Rápido](./INICIO_RAPIDO.md)
+
+📗 **¿Problemas al clonar?** Consulta la [Guía Completa de Clonación](./GUIA_CLONACION.md)
+
 Si estás teniendo problemas para clonar este repositorio, aquí están las instrucciones detalladas:
 
 ### Opción 1: Clonar con HTTPS
